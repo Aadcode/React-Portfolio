@@ -11,13 +11,11 @@ const App = () => {
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900">
       {/* Background Gradient */}
       <div className="fixed top-0 -z-10 h-full w-full">
-        <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
-          {" "}
-        </div>
+        <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
       </div>
 
       {/* Main Container */}
-      <div className="container px-4 sm:px-2 lg:px-16 flex-col justify-center">
+      <div className="container mx-auto flex flex-col justify-center px-4 sm:px-6 lg:px-16">
         <Navbar />
         <Hero />
         <About />
